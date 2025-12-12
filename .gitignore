@@ -1,0 +1,10 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Archivos test
+test*.*
+
+# Posibles Archivos generados
+*.csv
+*.png
