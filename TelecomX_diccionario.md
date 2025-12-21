@@ -21,3 +21,4 @@
 - `PaymentMethod`: forma de pago
 - `Charges.Monthly`: total de todos los servicios del cliente por mes
 - `Charges.Total`: total gastado por el cliente
+- `Cuentas_Diarias`: total estimado gastado por el cliente diariamente
