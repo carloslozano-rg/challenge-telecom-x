@@ -1,24 +1,24 @@
 #### Diccionario de datos
 
-- `customerID`: número de identificación único de cada cliente
-- `Churn`: si el cliente dejó o no la empresa
-- `gender`: género (masculino y femenino)
-- `SeniorCitizen`: información sobre si un cliente tiene o no una edad igual o mayor a 65 años
-- `Partner`: si el cliente tiene o no una pareja
-- `Dependents`: si el cliente tiene o no dependientes
-- `tenure`: meses de contrato del cliente
-- `PhoneService`: suscripción al servicio telefónico
-- `MultipleLines`: suscripción a más de una línea telefónica
-- `InternetService`: suscripción a un proveedor de internet
-- `OnlineSecurity`: suscripción adicional de seguridad en línea
-- `OnlineBackup`: suscripción adicional de respaldo en línea
-- `DeviceProtection`: suscripción adicional de protección del dispositivo
-- `TechSupport`: suscripción adicional de soporte técnico, menor tiempo de espera
-- `StreamingTV`: suscripción de televisión por cable
-- `StreamingMovies`: suscripción de streaming de películas
-- `Contract`: tipo de contrato
-- `PaperlessBilling`: si el cliente prefiere recibir la factura en línea
-- `PaymentMethod`: forma de pago
-- `Charges.Monthly`: total de todos los servicios del cliente por mes
-- `Charges.Total`: total gastado por el cliente
-- `Cuentas_Diarias`: total estimado gastado por el cliente diariamente
+- `customerID`, `cliente_id` : número de identificación único de cada cliente
+- `Churn`, `cancelacion`: si el cliente dejó o no la empresa
+- `gender`, `genero`: género (masculino y femenino)
+- `SeniorCitizen`: `adulto_mayor` información sobre si un cliente tiene o no una edad igual o mayor a 65 años
+- `Partner`, `pareja`: si el cliente tiene o no una pareja
+- `Dependents`, `dependientes`: si el cliente tiene o no dependientes
+- `tenure`, `meses_antiguedad`: meses de contrato del cliente
+- `PhoneService`, `servicio_telefonico`: suscripción al servicio telefónico
+- `MultipleLines`, `multiples_lineas`: suscripción a más de una línea telefónica
+- `InternetService`, `servicio_internet`: suscripción a un proveedor de internet
+- `OnlineSecurity`, `seguridad_en_linea`: suscripción adicional de seguridad en línea
+- `OnlineBackup`, `copia_seguridad_en_linea`: suscripción adicional de respaldo en línea
+- `DeviceProtection`, `proteccion_dispositivos`: suscripción adicional de protección del dispositivo
+- `TechSupport`, `soporte_tecnologico`: suscripción adicional de soporte técnico, menor tiempo de espera
+- `StreamingTV`, `streaming_tv`: suscripción de televisión por cable
+- `StreamingMovies`, `streaming_peliculas`: suscripción de streaming de películas
+- `Contract`, `contrato`: tipo de contrato
+- `PaperlessBilling`, `factura_en_linea`: si el cliente prefiere recibir la factura en línea
+- `PaymentMethod`, `metodo_pago`: forma de pago
+- `Charges.Monthly`, `cargo_mensual`: total de todos los servicios del cliente por mes
+- `Charges.Total`, `cargo_total`: total gastado por el cliente
+- `Cuentas_Diarias`, `cuentas_diarias`: total estimado gastado por el cliente diariamente
