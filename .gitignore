@@ -8,3 +8,4 @@ test*.*
 # Posibles Archivos generados
 *.csv
 *.png
+!*imagen.png
